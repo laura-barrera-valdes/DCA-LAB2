@@ -1,0 +1,38 @@
+.myprofile {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(227, 227, 227);
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(103, 103, 103);
+}
+
+.proficon{    
+    width: 20%;
+    height: 20%;
+}
+
+.personalinfo{
+    display: grid;
+    align-items: center;
+}
+
+h3{
+    margin: 0px;
+}
+
+.profname{
+    margin: 0px;
+}
+
+.title{
+    display: flex;
+    position: absolute;
+    top: 95px;
+    left: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(103, 103, 103);
+}
