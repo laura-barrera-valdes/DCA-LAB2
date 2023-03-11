@@ -25,9 +25,10 @@ attributeChangedCallback(propName, oldValue, newValue){
         <div class= "sugerencia">
             <img class="icon" src="${this.icon}"/>
             <div class"info">
-                <h4 class "user">${this.user}</h4>
-                <h6 class="followers">${this.followers}</h6>
+                <p class= "user">${this.user}</p>
+                <p class="followers">${this.followers}</p>
             </div>
+            <button class="btnfollow">Follow</button>
         </div>
         `;
     }

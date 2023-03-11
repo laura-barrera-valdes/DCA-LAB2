@@ -25,11 +25,12 @@ attributeChangedCallback(propName, oldValue, newValue){
         <div class= "myprofile">
             <img class="proficon" src="./assets/profile/profile-img2.png"/>
             <div class="personalinfo">
-                <h3 class "profuser">valdesing</h3>
-                <h6 class="profname">Valentina</h6>
+                <p class= "profuser">valdesing</p>
+                <p class="profname">Valentina</p>
             </div>
+            <button class="btnprofile">Change</button>
         </div>
-        <h4 class="title">You must know</h4>
+        <h4 class="title">Suggestions for you</h4>
         `;
     }
 
