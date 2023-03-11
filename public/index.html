@@ -5,11 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
+    <!-- types -->
+    <!-- Raleway: es sin serifa -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- types -->
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <link rel="stylesheet" href="style.css"> <!-- link:css -->
+    <!-- escribo link y le doy tab, despues adentro de las comillas escribo las clases -->
+    <!-- link es para que el html sepa que sus estilos vienen del archivo css -->
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="controlador.css">
+    
 </head>
 <body>
+    <div class="row">
+        <div class="col l2 fixed colizq">
+            <header>
+                <ul id="nav-mobile" class="sidenav sidenav-fixed navizq" style="transform: translateX(0%);">
+                    <div class="fixedizq">
+
+                        <div class="header_logo">
+                            <image class="logoinstaph" src="./assets/icons/Instagram-logo.png"></image>
+                        </div>
+
+                        <div class="spacebetween">
+                            <div class="header_botones_1">
+
+                                <div class="secinicio">
+                                <image class="inicioicon" src="./assets/icons/Home-icon.png"><p class="iniciotext">Home</p></imagse>
+                                
+                                </div>
+
+                                <div class="secexplorar">
+                                    <image class="exploraricon" src="./assets/icons/Search-icon.png"><p class="explorartext">Search</p></image>
+                                </div>
+                                
+                                <div class="secmensajes">
+                                    <image class="mensajesicon" src="./assets/icons/Messages-icon.png"><p class="mensajestext">Messages</p></image>
+                                </div>
+
+                                <div class="secnotificaciones">
+                                    <image class="notificacionesicon" src="./assets/icons/Like-icon-off.png"><p class="notificacionestext">Likes</p></image>
+                                </div>
+
+                                <div class="seccrear">
+                                    <image class="crearicon" src="./assets/icons/Create-icon.png"><p class="creartext">Upload</p></image>
+                                </div>
+
+                                <div class="secperfil">
+                                    <image class="perfilph" src="./assets/myprof/Myprofph.png"><p class="perfiltext">My Profile</p></image>
+                                </div>
+
+                            </div>
+                            
+                            <div class="header_botones_2">
+                                <image class="masinfoicon" src="./assets/icons/Moreinfo-icon.png"><p class="mastext">More</p></image>
+                            </div>
+                        </div>
+                    </div>
+                </ul>       
+            </header>
+        </div>
+        <div class="col l10 colder">
+            <div class="col l5 coll5">
+                <div class="navegador">
+                    <div class="story1"><!-- error: a veces aparece la foto de perfil del id2 -->
+                        <image class="story1ph" src="./assets/id1/Profile-Image.png"></image>
+                        <p class="story1p">mofi_bizcocha</p>
+                    </div>
+                    <div class="story2">
+                        <image class="story2ph" src="./assets/id2/Profile-Image.png"></image>
+                        <p class="story2p">roro_piroro</p>
+                    </div>
+                    <div class="story3">
+                        <image class="story3ph" src="./assets/id3/Profile-Image.png"></image>
+                        <p class="story3p">hanna_banana</p>
+                    </div>
+                </div>
+                <main class="colmain">
+                    <post-container></post-container>
+                </main>
+            </div>
+            <div class="col l5 colfooter">
+                <footer>
+                    <user-container></user-container>
+                    <suggestion-container></suggestion-container>
+                </footer>
+            </div>
+        </div>
+      </div>
+
+
+
     <app-container></app-container>
-    <suggestion-container></suggestion-container>
-    <user-container></user-container>
     <script src="./src/index.js" type="module"></script>
     <script type="module" src="./src/SuggestContainer.js"></script>
     

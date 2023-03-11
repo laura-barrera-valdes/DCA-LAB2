@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navizq{
+    width: 224px;
+}
+.fixedizq{
+    padding: 12px;
+    height: 100%;
+}
+
+.header_logo{
+    width: 220px;
+    height: 81px;
+}
+/*
+.spacebetween{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}*/
+
+.secinicio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.iniciotext{
+    padding-inline: 10px;
+}
+
+
+.secexplorar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.explorartext{
+    padding-inline: 10px;
+}
+
+.secmensajes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mensajestext{
+    padding-inline: 10px;
+}
+
+.secnotificaciones{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.notificacionestext{
+    padding-inline: 10px;
+}
+
+.seccrear{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.creartext{
+    padding-inline: 10px;
+}
+
+.secperfil{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.perfiltext{
+    padding-inline: 10px;
+}
+
+.header_botones_2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mastext{
+    padding-inline: 10px;
+}
+
+.logoinstaph{
+    width: 130px;
+    padding: 12px;
+}
+.inicioicon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.exploraricon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.mensajesicon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.notificacionesicon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.crearicon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.perfilph{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.masinfoicon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+/*
+.header_botones_2{
+    display: flex;
+    align-items: flex-end;
+}*/
+
+.colder{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.coll5{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.navegador{
+    display: flex;
+    background-color: white;
+    position: relative;
+    width: 310px;
+    height: 100px;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    margin: 15px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 5px;
+}
+/*
+.story1{
+}
+
+.story2{
+}
+
+.story3{
+}
+
+.story4{
+}*/
+
+.story1ph{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-inline: 13px;
+}
+.story2ph{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-inline: 13px;
+}
+.story3ph{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-inline: 13px;
+}
+.story4ph{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-inline: 13px;
+}
+
+.story1p{
+    color: black;
+    font-size: 11px;
+    text-align: center;
+}
+
+.story2p{
+    color: black;
+    font-size: 11px;
+    text-align: center;
+}
+
+.story3p{
+    color: black;
+    font-size: 11px;
+    text-align: center;
+}
+
+.story4p{
+    color: black;
+    font-size: 11px;
+    text-align: center;
+}
+
+.colmain{
+    width: 350px;
+    padding: 0px 0px 0px 0px;
+}
+
+.footerimg{
+    width: 280px;
+}
+
+.colfooter{
+    margin: 15px;
+}
