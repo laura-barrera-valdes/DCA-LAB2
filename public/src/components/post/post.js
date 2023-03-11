@@ -36,7 +36,7 @@ class Post extends HTMLElement {
                     <div class="div1_2">
                         <button class="buton_settings">
                             <div class="imag_boton_settings">
-                            <image class="settingsicon" src="./assets/icons/Settings-icon.png"></image>
+                            <image class="settingsicon" src="./assets/icon/Settings-icon.png"></image>
                             </div>
                         </button>
                     </div>
@@ -50,13 +50,13 @@ class Post extends HTMLElement {
 
                 <div class="div3">
                     <div class="div_izq">
-                        <image class="likeicon" src="./assets/icons/Like-icon-off.png"></image>
-                        <image class="commenticon" src="./assets/icons/Comment-icon.png"></image>
-                        <image class="shareicon" src="./assets/icons/Share-icon.png"></image>
+                        <image class="likeicon" src="./assets/icon/Like-icon-off.png"></image>
+                        <image class="commenticon" src="./assets/icon/Comment-icon.png"></image>
+                        <image class="shareicon" src="./assets/icon/Share-icon.png"></image>
                     </div>
 
                     <div class="div_der">
-                        <image class="saveicon" src="./assets/icons/Save-icon.png"></image>
+                        <image class="saveicon" src="./assets/icon/Save-icon.png"></image>
                     </div>
                 </div>
 
