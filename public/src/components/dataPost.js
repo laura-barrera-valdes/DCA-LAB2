@@ -31,6 +31,17 @@ const dataPost = [
         "descr": "WAW :p",
         "comments": "View all 8.050 comments",
         "date": "1 hour ago",
+    },
+    {
+        "id": 4,
+        "profph": "./assets/id4/Profile-Image.png",
+        "nickname": "lau_bv",
+        "post": "./assets/id4/Post-Image.jpeg",
+        "likes": "9.000 Likes",
+        "views": "9.000 Views",
+        "descr": "WIIIII :3",
+        "comments": "View all 4.099 comments",
+        "date": "6 seconds ago",
     }
 ]
 export default dataPost;
