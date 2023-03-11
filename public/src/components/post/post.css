@@ -1,0 +1,185 @@
+/*el styles.css va dentro de la carpeta que quiero embellecer xD*/
+/*button es una etiqueta de html*/
+/*color: white;*/ /*este es el color del boton, lo usaria si el boton no tuviera imagen*/
+/*background-color:;*/ /*este es el color del fondo del boton*/
+/*
+button{
+    width: 26px;
+    height: 26px;
+}*/
+
+
+/* css del cuadro del post */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cuadro{
+    display: flex;
+    color: white;
+    position: relative;
+    width: 310px;
+    height: 484px;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    margin: 15px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.div1{
+    display: flex;
+    padding: 7px 12px 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div1_1{
+    display: flex;
+    align-items: center;
+}
+
+.buton_settings{
+    background-color: white;
+    color: none;
+    border: none;
+}
+
+/* css de img*/
+
+.profph{
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.settingsicon{
+    width: 25px;
+    height: 13px;
+    padding: 5px;
+    position: relative;
+}
+
+.thepost{
+    width: 100%;
+    position: relative;
+}
+
+.div3{
+    display: flex;
+    margin: 0px 0px 0px;
+    padding: 4px 12px 4px;
+    justify-content: space-between;
+}
+
+.likeicon{
+    width: 18px;
+    height: 15px;
+    position: relative;
+    padding: 2px;
+}
+
+.commenticon{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    padding: 2px;
+}
+
+.shareicon{
+    width: 18px;
+    height: 15px;
+    position: relative;
+    padding: 2px;
+}
+
+.saveicon{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    padding: 2px;
+}
+
+.div4{
+    display: flex;
+    margin: 0px 0px 0px;
+    padding: 1px 12px 1px;
+}
+
+.div5{
+    display: flex;
+    margin: 0px 0px 0px;
+    padding: 1px 12px 1px;
+}
+
+.div6{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px;
+    padding: 1px 12px 1px;
+}
+
+/* css de textos */
+
+.nickname{
+    padding: 5px;
+    color: black;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+.likes{
+    color: black;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    padding: 2px;
+}
+
+.views{
+    color: gray;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    padding: 2px;
+}
+
+.nicknamedescr{
+    color: black;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    padding: 2px;
+}
+
+.descr{
+    color: black;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    position: relative;
+    padding: 2px;
+}
+
+.comments{
+    color: gray;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    padding: 2px;
+}
+
+.date{
+    color: gray;
+    font-size: 8px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    padding: 2px;
+}
+
+/*
+top entre > sea top, más baja
+left mueve a la der
+*/

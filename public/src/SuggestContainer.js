@@ -1,5 +1,6 @@
 import * as components from "./components/export.js";
 import data from "./components/data.js"
+import dataPost from "./components/dataPost.js";
 
 class PostContainer extends HTMLElement{
     constructor(){
@@ -12,7 +13,7 @@ class PostContainer extends HTMLElement{
     }
 
     render(){
-        const compts = data.map (({profph, nickname, post, likes, views, descr, comments, date}) =>
+        const compts = dataPost.map (({profph, nickname, post, likes, views, descr, comments, date}) =>
         `<my-post
         profph="${profph}"
         nickname="${nickname}"
