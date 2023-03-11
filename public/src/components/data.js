@@ -1,14 +1,14 @@
 const data= [
 {
         icon: "./assets/profImgSugg/pi1.png",
-        user: 'danielavalverde21',
+        user: 'icesiaotronivel',
         followers: 'icesidmi and 10 mores follow this account' 
 
 },
 
 {
     "icon": "./assets/profImgSugg/pi2.png",
-    user: 'jose_barrera',
+    user: 'icesi-posting',
     followers: 'juanmarinap and 3 more follow this account'
 },
 

@@ -33,15 +33,13 @@ class SuggestContainer extends HTMLElement{
     render(){
         data.forEach((p)=>{
             this.shadowRoot.innerHTML += `
-            <link rel= "stylesheet" href= "./src/components/suggestion/suggestion.css" type"text/html">
-            <link rel= "stylesheet" href= "./src/components/MyProfile/Myprofile.css" type"text/html">
             <my-profiles icon="${p.icon}"
             user= "${p.user}"
             followers="${p.followers}"></my-profiles>
-            <follow-button></follow-button>
+            
             `
-
         })
+    
     }
 
 }
