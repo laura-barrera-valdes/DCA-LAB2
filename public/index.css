@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-.iniciotext{
+.hometext{
     padding-inline: 10px;
 }
 
@@ -41,7 +41,7 @@
     align-items: center;
 }
 
-.explorartext{
+.searchtext{
     padding-inline: 10px;
 }
 
@@ -51,7 +51,7 @@
     align-items: center;
 }
 
-.mensajestext{
+.messajestext{
     padding-inline: 10px;
 }
 
@@ -61,7 +61,7 @@
     align-items: center;
 }
 
-.notificacionestext{
+.likestext{
     padding-inline: 10px;
 }
 
@@ -71,7 +71,7 @@
     align-items: center;
 }
 
-.creartext{
+.uploadtext{
     padding-inline: 10px;
 }
 
@@ -81,7 +81,7 @@
     align-items: center;
 }
 
-.perfiltext{
+.myproftext{
     padding-inline: 10px;
 }
 
@@ -91,7 +91,7 @@
     align-items: center;
 }
 
-.mastext{
+.moretext{
     padding-inline: 10px;
 }
 
